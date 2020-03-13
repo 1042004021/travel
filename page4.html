@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/page4.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<title>你好，越南</title>
+</head>
+<div class="back">
+	<img width="50%" src="image/home.png" alt="">
+</div>
+<div class="bg1 bg-blur">
+</div>
+<div class="div2">
+	<div class="p1">
+		<b>芽庄</b>（Nha Trang）位于越南中部沿海地区，作为一个众多滨海城市中的一员，芽庄在国人心中的地位确实非同小可的——这里物价不是很高，环境优美，车水马龙，在繁华之中却始终保持着一分僻静和几分热情，让人无一不感到轻松与闲适。所以说，这里真不愧是大家越南之行的最爱之一。
+	</div>
+</div>	
+<div class="bg2 bg-blur2">
+</div>
+	<div class="div3">
+	<div class="p1">
+		<b>大叻</b>是越南南方的一个城市，位于胡志明市东北三百公里处，建在海拔一千五百多米的高原上，周围是一望无垠的松林。大叻人口约仅十万人，年均温度在摄氏十七度上下，是越南少有的高原度假避暑胜地。城里密布着色彩鲜艳的法国老别墅，街道两旁总是花团锦簇。湖泊和森林使得大叻一年四季气候都很舒适宜人。
+	</div>
+</div>	
+<div class="bg3 bg-blur3">
+</div>
+	<div class="div4">
+	<div class="p1">
+		<b>下龙湾</b>是越南北方广宁省的一个海湾，风光秀丽迷人，闻名遐迩。风景区共分为东、西、南3个小湾。因其景色酷似中国的桂林山水，因此被称为“海上桂林”。下龙湾各小岛屿典型的形式为伸出海面的锯齿状石灰岩柱，还有一些洞穴和洞窟，共同形成一幅异国风味的如画景致。水域和热带森林中可见各种不同的海生及陆生哺乳动物、鳄、鱼类和鸟类。
+	</div>
+</div>	
+<div class="bg4 bg-blur4">
+</div>
+	<div class="div5">
+	<div class="p1">
+		<b>天堂岛</b>由岛屿、海水和沙滩三部分组成。天堂岛附近的海水清澈，因为清澈，像一块蓝宝石，又像一块翡翠，畅游于此，最大的乐趣不在于戏水，而在于涤清身心、忘却烦恼、享受心情。整个岛屿被茂密的植被所覆盖，登顶极目远眺，蓝蓝的大海被群岛环绕，翠绿的岛屿又成为大海最美的点缀，一条条船只穿梭其间，无意间构成一幅流动的画卷。
+	</div>
+</div>	
+<body>
+</body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(".back").click(function(){
+				window.location.href="page1.html";
+			});
+			
+			//图一
+			$(".bg1").hover(function(){
+				$(".div2").css("opacity","1");
+				$(".bg-blur").css("-webkit-filter","blur(0px)");
+			},
+							   function(){
+				$(".div2").css("opacity","0");
+				$(".bg-blur").css("-webkit-filter","blur(15px)");
+			});
+			$(".div2").hover(function(){
+				$(".div2").css("opacity","1");
+				$(".bg-blur").css("-webkit-filter","blur(0px)");
+			});
+			
+			//图二
+			$(".bg2").hover(function(){
+				$(".div3").css("opacity","1");
+				$(".bg-blur2").css("-webkit-filter","blur(0px)");
+			},
+							   function(){
+				$(".div3").css("opacity","0");
+				$(".bg-blur2").css("-webkit-filter","blur(15px)");
+			});
+			$(".div3").hover(function(){
+				$(".div3").css("opacity","1");
+				$(".bg-blur2").css("-webkit-filter","blur(0px)");
+			});
+			
+			//图三
+			$(".bg3").hover(function(){
+				$(".div4").css("opacity","1");
+				$(".bg-blur3").css("-webkit-filter","blur(0px)");
+			},
+							   function(){
+				$(".div4").css("opacity","0");
+				$(".bg-blur3").css("-webkit-filter","blur(15px)");
+			});
+			$(".div4").hover(function(){
+				$(".div4").css("opacity","1");
+				$(".bg-blur3").css("-webkit-filter","blur(0px)");
+			});
+			
+			//图四
+			$(".bg4").hover(function(){
+				$(".div5").css("opacity","1");
+				$(".bg-blur4").css("-webkit-filter","blur(0px)");
+			},
+							   function(){
+				$(".div5").css("opacity","0");
+				$(".bg-blur4").css("-webkit-filter","blur(15px)");
+			});
+			$(".div5").hover(function(){
+				$(".div5").css("opacity","1");
+				$(".bg-blur4").css("-webkit-filter","blur(0px)");
+			});
+		});
+		
+			
+		
+		
+	</script>
+</html>

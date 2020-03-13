@@ -1,0 +1,142 @@
+/* CSS Document */
+
+.div1{
+	position: relative;
+	width: 98%;
+	height: 800px;
+	margin-left: 1%;
+	margin-right: 1%;
+	overflow: hidden;
+}
+.zhe{
+	background:#000000 ;
+	
+}
+.ti{
+	position: fixed;
+	z-index: 100;
+	width: 200px;
+	top: 20px;
+	left: 30px;
+}
+.p1{
+	font-size:50px;
+	position: absolute;
+	color: #ffffff;
+	z-index: 1;
+	left: 30px;
+}
+.p2{
+	font-size:30px;
+	color: #E90003;
+	position: absolute;
+	z-index: 1;
+	top: 20px;
+	left: 130px;
+}
+.img1{
+	position: absolute;
+	height: 800px;
+}
+.div2{
+	width:100%;
+	border: 6px #ffffff solid;
+	top: 270px;
+	left: 25%;
+	z-index: 2;
+	opacity: 0;
+	transition:all 2s;
+	text-align: center;
+	font-size: 120px;
+	padding: 1%;
+	color: #ffffff;
+    -webkit-transition:all 2s;
+	
+}
+.zhe1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: #000000;
+	z-index: 1;
+	transition:all 2s;
+    -webkit-transition:all 2s;
+}
+.img2{
+	position: absolute;
+	width: 2%;
+	z-index: 2;
+	top: 750px;
+	left: 49%;
+}
+.div3{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+	
+}
+.img3{
+
+}
+.zhe2{
+	width: 98%;
+	margin-right: 1%;
+	margin-left: 1%;
+	height: 1280px;;
+	background: rgba(0,0,0,0.54);
+	position: absolute;
+	z-index: 1;
+}
+
+.box1{
+	text-align: center;
+	padding-top: 100px;
+	background: rgba(0,0,0,0.51);
+	width: 60%;
+	height: 300px;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	z-index: 1000;
+}
+.p3{
+	color: #ffffff;
+}
+.div4{
+	width: 98%;
+	margin-left: 1%;
+	height: 810px;
+	background: #2F4F4F;
+	z-index: 2;
+	text-align: center
+}
+
+.img5{
+	width: 60%;
+/*	margin-left: 20%;*/
+	margin-top: 20px;
+	
+}
+.p4{
+	font-size: 30px;
+	color: #000000;
+}
+.button1{
+	width: 6%;
+	margin-top: 30px;
+	margin-left: 47%;
+	height: 30px;
+	line-height: 25px;
+	background: rgba(5,5,5,0);
+	color: #8D8B8B;
+	border: 2px #8D8B8B solid;
+}
+.a1{
+	text-decoration: none;
+	color: #ffffff;
+}
+.a1:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
